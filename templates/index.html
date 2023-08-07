@@ -21,6 +21,9 @@
 	<script src="../static/jquery-3.3.1.min.js"></script>
 	<script src="../static/popper.min.js"></script>
 	<script src="../static/all.js"></script>
+
+	<script type="text/javascript" src="https://www.go2stream.net/stream/live/apis/StreamTracking/StreamTracking.js" defer></script>
+
 	
 	<link rel="canonical" href="https://e2mtracking.appspot.com"> <!-- CHANGE!!!!!!!!!!!!! -->
 	
@@ -72,7 +75,19 @@
 
 	<div class="container-fluid padding">
      <div class="col-xl-8 offset-xl-2 py-5">
-     <h3 align="center">PLEASE ENTER YOUR TRACKING NO.</h3><br> 
+
+
+<div 
+id="go2stream-tracking-widget-container" 
+data-colour_primary="white" // Background colour 
+data-colour_secondary="#269789" // Button colour
+data-colour_text_primary="black" // Text colour
+data-colour_text_secondary="white" // Button text colour
+data-colour_errors="red" // Error text colour
+></div>
+
+
+<!--     <h3 align="center">PLEASE ENTER YOUR TRACKING NO.</h3><br> 
 
 	<form class="form-inline" id="contact-form">
 		<div class="form-group" align="center">
@@ -84,10 +99,13 @@
 	</form>
 
 	<div class="alert alert-error collapse" role="alert" id="order-not-found-error">
-			<p>The order was not found!</p></div>
+			<p>The order was not found!</p></div>-->
 </div></div>
 
+<!--
 <p align="center">Please enter your tracking number (note: it is case-sensitive). Once you have submitted it, you will be redirected to the tracking page.</p><br><br>
+
+-->
 
 <script src="static/ajax.js"></script>
 
